@@ -21,11 +21,6 @@ const HEROES: Hero[] = [
 })
 
 export class AppComponent {
-    title = 'Tour of Heroes';
+    title = 'Shopping List';
     heroes = HEROES;
-    selectedHero: Hero;
-
-    onSelect(hero: Hero): void {
-        this.selectedHero = hero;
-    }
 }
